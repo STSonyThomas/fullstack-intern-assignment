@@ -1,6 +1,7 @@
 import { ReduxProvider } from "@/redux/provider";
 import { Inter } from "next/font/google";
 import { FaPhoneAlt } from "react-icons/fa";
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -32,6 +33,7 @@ export default function RootLayout({
           <a href="tel:+918136984259">
             <FaPhoneAlt className="text-black"/>
           </a>
+          <Analytics/>
         </footer>
       </body>
     </html>
