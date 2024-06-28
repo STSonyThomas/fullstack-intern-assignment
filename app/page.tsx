@@ -76,6 +76,7 @@ if (user) {
 }`}
             </code>
           </pre>
+          <h4 className='text-sm text-green-500'>User:admin, Password:admin</h4>
         </div>
       </div>
     </div>
